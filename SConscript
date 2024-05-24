@@ -13,3 +13,4 @@ if GetDepend(['RT_USING_SERIAL']):
 
 
 group = DefineGroup('Libraries', src, depend=[''], CPPPATH=path)
+Return('group')
